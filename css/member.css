@@ -1,0 +1,117 @@
+
+
+/* Member section  */
+
+.member{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #F2F3F6;
+    align-items: center;
+}
+.member .fa-brands{
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+
+.head-2{
+    text-align: center;
+    font-weight: bold;
+    /* margin: 50px 0 50px 0; */
+}
+.head-2 .fa-solid{
+    color: red;
+    font-size: 35px;
+}
+.head-3{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.head-4{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.member-status{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.member-status h4{
+    margin-top: 30px;
+}
+
+.community {
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+}
+.members   {
+    text-align: center;
+    
+}
+.contributor{
+    text-align: center;
+}
+.events {
+    text-align: center;
+}
+.members .fa-solid{
+    font-size: 50px;
+}
+.contributor .fa-solid{
+    font-size: 50px;
+}
+.events .fa-solid{
+    font-size: 50px;
+}
+
+
+.join-btn-social button{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.Linkedin button{
+    background-color: #0A66C2;
+    
+
+}
+.discord-icon button{
+    background-color: #5562EA;
+    
+}
+
+.discord-icon span,.Linkedin span{
+    font-weight: 900;
+}
+
+
+.Linkedin button:hover{
+    background-color: #3691ec;
+}
+.discord-icon button:hover{
+    background-color: #6b77fa;
+}
+
+
+
+.feature{
+    margin-top: 50px;
+}
+
+
+/* responsive */
+@media (max-width: 768px){
+    .Linkedin{
+        margin-bottom: 20px;
+    }
+}

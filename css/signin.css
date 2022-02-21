@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:wght@100&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.sing-in-form{
+    width: 300px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+input{
+    font-size: 15px;
+}
+
+.sing-in-form h1{
+    color: rgb(119,58,212);
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(204, 203, 203);
+    outline: none;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    box-shadow: rgba(110, 109, 109, 0.35) 0px 5px 15px;
+}
+
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.singup-btn{
+    background-color: rgb(119,58,212);
+
+}
+.singup-btn:hover{
+    background-image: linear-gradient(to right,#364AD4,#8B35D4);
+
+}
+
+.facebook-btn{
+    background-color: rgb(139, 72, 240);
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+    
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+    
+}
+#account-icon{
+    color: rgb(119,58,212);
+    font-size: 30px;
+}

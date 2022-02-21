@@ -1,0 +1,100 @@
+.community-member img{
+    width: 70px;
+    filter: grayscale(100%);
+}
+.community-member h5{
+    margin-bottom: 50px;
+}
+
+.aiml-nepal img{
+    margin-top: 25px;
+    width: 150px;
+}
+/* .docsumo img{
+    margin-top: 10px;
+    width: 180px;
+    margin-bottom: 25px;
+} */
+
+.Microsoft-Logo img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.community-member{
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.community-member img:hover{
+    filter: grayscale(0%);
+}
+
+#join-community{
+    background-color: #F2F3F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.join-community-img img{
+    width: 100%;
+}
+.join-community{
+    box-shadow: rgba(167, 167, 167, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.join-community p{
+    font-size: 22px;
+    color: #3B49D4;
+    text-align: center;
+}
+.join-community h1{
+    color: #8A36D4;
+    text-align: center;
+    font-weight: bold;
+}
+.join-community button{
+    padding: 20px;
+    background-color: #364AD4;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+#to-refer{
+    font-weight: bold;
+}
+
+.join-community input{
+    width: 330px;
+    border: 1px solid rgb(167, 167, 167);
+    /* border: none; */
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    color: rgb(12, 14, 36);
+    background-color: #F2F3F6;
+    /* box-shadow: rgba(71, 71, 71, 0.3) 0px 5px 15px; */
+
+}
+.join-community input:focus{
+    border: 1px solid #8A36D4;
+    outline: none;
+}
+#to-refer{
+    margin-left: 10px;
+}
+#join-community-btn{
+    margin-left: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+#join-community-btn:hover{
+    background-color: #8A36D4;
+}
+.join-community-input{
+    width: 80%;
+    margin-left: 50px;
+}
